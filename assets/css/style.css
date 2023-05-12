@@ -1,0 +1,39 @@
+:root{
+    --main : #abd373;
+}
+::selection{
+    background-color: #abd373;
+    color: #fff;
+}
+body.light{
+    background-color: rgb(242, 247, 247);
+}
+body.dark{
+    background-color: rgb(03, 03, 03);
+}
+ul{
+    float: right;
+}
+ul li{
+    display: inline-block;
+}
+ul li svg{
+    width: 20px;
+}
+.call{
+    color: var(--main)
+}
+header{
+    border-bottom: 1px solid gainsboro;
+}
+.btn{
+    padding: 10px 50px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.btn-main{
+    background-color: var(--main);
+    color: #fff;
+}
+
